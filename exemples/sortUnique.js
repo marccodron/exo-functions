@@ -1,5 +1,7 @@
+// Remove doubles
+
 const makeUnique = (Row) => {
   return Array.from(new Set (Row));
 }
-console.log(makeUnique([1, 2, 1, 3, 2, 4, 5, 7, 5, 1]))
+console.log(makeUnique([10110, 11011, 11001, 10011, 11011, 10110, 10011]))
 
